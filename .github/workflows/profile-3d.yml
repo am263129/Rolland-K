@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: yoshi389111/github-profile-3d-contrib@0.2.0
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: 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
           USERNAME: Rolland-K
       - name: Commit & Push
         run: |
